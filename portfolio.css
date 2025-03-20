@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background-color: #5a189a;
+    height: 1000px;
+}
+.container-details{
+    display: inline-block;
+    position: fixed;
+    margin-top: 77px;
+    margin-left: 0px;
+    background-color: #4e148c;
+    top: 0;
+    left: 0;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    transition:  opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+.img{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.details{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+margin-top: 30px;
+text-align: center;
+line-height: 20px;
+font-weight: bold;
+padding: 10px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.social-media{
+    margin-top: 189px;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.title{
+    font-family: 'Tektur';
+    text-align: center;
+    color: #ff9e00;
+    font-size: 100px;
+    letter-spacing: 5px; 
+    transition: color 2s ease-in-out; 
+}
+
+.title:hover{
+    color: #fdf0d5;
+    transition: 2s;
+    cursor: default;
+}
+
+.para{
+    margin-top: 50px;
+}
+.me{
+    font-size: large;
+    line-height: 25px;
+    color: #ff8000;
+    font-weight: 600;
+}
+
+.list{
+    color: #ff8000;
+    font-weight: 600; 
+}
+.nav{
+    display: flex;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Tektur';
+    font-weight: 700;
+    background-color:#240046 ;
+    color: #7b2cbf;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.right{
+    padding-left: 1190px;
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.home:hover{
+    color: #9d4edd;
+    cursor: pointer;
+}
+.about:hover{
+    color: #9d4edd;
+    cursor: pointer;
+}
+.projects:hover{
+    color: #9d4edd;
+    cursor: pointer;
+}
+.future:hover{
+    color: #9d4edd;
+    cursor: pointer;
+}
+
+.insta:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: 100ms;
+}
+
+.linkedin:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: 100ms;
+}
+
+.github:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: 100ms;
+}
+
+.twitter:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: 100ms;
+}
+
+.profile-pic:hover{
+transform: scale(1.2);
+}
+
+
